@@ -29,7 +29,8 @@
         <module>mssqlserver</module>
         <module>sqlite</module>
         <module>verification</module>
-<!--        <module>pi</module>-->
+        <module>hbase</module>
+        <!--        <module>pi</module>-->
 <!--        <module>iginx</module>-->
     </modules>
 

@@ -141,6 +141,9 @@ public class DBFactory {
         case DB_SelfCheck:
           dbClass = Constants.SELF_CHECK_CLASS;
           break;
+        case DB_HBASE:
+          dbClass = Constants.HBase;
+          break;
         default:
           throw new SQLException("didn't support this database");
       }
